@@ -6,9 +6,10 @@ F9::{
     overallEnabled := !overallEnabled 
 }
 #HotIf overallEnabled
-CapsLock::{
-
+*CapsLock::{
 }
+
+
 
 #HotIf overallEnabled && GetKeyState("CapsLock", "P")
 q::y
@@ -32,3 +33,26 @@ b::Enter
 
 
 
+Q::Y
+W::U
+E::I
+R::O
+T::P
+
+A::H
+S::J
+D::K
+F::L
+
+Z::N
+X::M
+
+
+
+
+
+1::6
+2::7
+3::8
+4::9
+5::0
